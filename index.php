@@ -15,13 +15,18 @@ $users = json_decode($userData, true);
     <title>Document</title>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 </head>
 
 <body class="bg-light">
+
+    <?php 
+        include("barra.php"); 
+    ?>
+
     <main class="container">
         <h1 class="text-center text-uppercase my-5">Mascotas disponibles para Adopción</h1>
         <section>
@@ -33,14 +38,16 @@ $users = json_decode($userData, true);
                             <article>
                                 <div class="pet shadow mb-5 rounded">
                                     <div class="m-0 position-relative rounded">
-                                        <img src="img/<?= $pet["imagen"]; ?>" alt="<?= $pet["nombre"]; ?>" class="img-responsive rounded-top">
+                                        <img src="img/<?= $pet["imagen"]; ?>" alt="<?= $pet["nombre"]; ?>"
+                                            class="img-responsive rounded-top">
                                         <span class="bi bi-suit-heart-fill pst" aria-hidden="true"></span>
                                         <div class="text-center pt-5 px-2 pb-2">
                                             <h3 class="descriptionPet fw-light"><?= $pet["nombre"]; ?></h3>
                                             <p class="descriptionPet">
                                                 <?= $pet["nombre"]; ?> es un <?= $pet["tipo"]; ?> <?= $pet["genero"]; ?> de raza <?= $pet["raza"]; ?> tiene <?= $pet["edad"]; ?> años de edad y se encuentra <?= $pet["estado"]; ?> para adopción.
                                             </p>
-                                            <button type="button" class="mb-3 btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" data-id="<?= $pet["id_mascota"]; ?>">
+                                            <button type="button" class="mb-3 btn btn-outline-danger btn-sm"
+                                                data-bs-toggle="modal" data-bs-target="#exampleModal" data-id="<?= $pet["id_mascota"]; ?>">
                                                 Solicitar Adopción
                                             </button>
                                         </div>
@@ -73,11 +80,11 @@ $users = json_decode($userData, true);
                         <div class="row g-3">
                             <div class="col-md-4 form-floating">
                                 <input type="text" class="form-control" id="tipomascota" name="tipomascota" placeholder="Tipo de Mascota" value="Tipo de Mascota" disabled readonly>
-
+                                <label for="tipomascota">Especie</label>
                             </div>
                             <div class="col-md-4 form-floating">
                                 <input type="text" class="form-control" id="edadmascota" name="edadmascota" placeholder="2 Años" value="2 Años" disabled readonly>
-
+                                <label for="apellidousuario">Edad</label>
                             </div>
                             <div class="col-md-4 form-floating">
                                 <input type="text" class="form-control" id="generomascota" name="generomascota" placeholder="Género Mascota" value="Género Mascota" disabled readonly>
@@ -130,8 +137,9 @@ $users = json_decode($userData, true);
     </div>
 
     <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
-<?php include 'header.php' ?>
 
 </html>
