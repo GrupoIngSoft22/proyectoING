@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="estiloregistro.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <title>Formulario Registro</title>
+</head>
+<body>
+  <div class="contenedor_registro">
+  <form action="php/registro_usuariosdb.php" method="post" class="form-register">
+    <h4>Formulario Registro</h4>
+        <input class="controls" type="int" id="cedula" placeholder="Ingrese su Cedula" name="cedula">
+        <input class="controls" type="text"  id="nombres" placeholder="Ingrese su Nombre" name="nombres">
+        <input class="controls" type="text"  id="apellidos" placeholder="Ingrese su Apellido" name="apellidos">
+        <input class="controls" type="email"  id="correo" placeholder="Ingrese su Correo" name="correo">
+        <input class="controls" type="text"  id="direccion" placeholder="Ingrese su Direccion" name="direccion">
+        <input class="controls" type="text"  id="ciudad" placeholder="Ingrese su Ciudad" name="ciudad">
+        <input class="controls" type="password"  id="contrasena" placeholder="Ingrese su Contraseña" name="contrasena">
+    <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+    <input class="botons" type="submit" value="Registrar">
+    <p><a href="index.html">¿Ya tengo Cuenta?</a></p>
+
+  </form>
+</div>
+</body>
+</html>

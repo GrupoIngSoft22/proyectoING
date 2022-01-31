@@ -1,0 +1,95 @@
+body, html {
+    height: 100%;
+  
+}
+
+body {
+    
+    background-image: url('fondo.jpg');
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* No Scrollbar */
+    overflow: hidden;
+}
+
+.form-box {
+    margin-top: 10px;
+    width: 320px;
+    padding: 40px;
+    background: #24303c;
+    text-align: center;
+}
+
+.form-title {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.form-box input[type="text"], .form-box input[type="password"], .form-box button[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3742fa;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.form-box input[type="text"]:focus, .form-box input[type="password"]:focus {
+    width: 280px;
+    border-color: #ffffff;
+}
+
+.form-box button[type="submit"] {
+    border: 0;
+    background: #5352ed;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3742fa;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.form-box button[type="submit"]:hover {
+    background: none;
+}
+
+.ctn-form p {
+    margin-top: 40px;
+    height: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 10px;
+    color: #1f53c5;
+  }
+  
+.ctn-form a {
+    color: white;
+    text-decoration: done;
+  }
+
+.ctn-form a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+
