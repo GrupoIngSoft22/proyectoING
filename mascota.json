@@ -1,0 +1,152 @@
+[
+  {
+    "id_mascota": 1,
+    "tipo": "perro",
+    "edad": 3,
+    "genero": "macho",
+    "raza": "mestizo",
+    "estado": "disponible",
+    "imagen": "perro1.jpg",
+    "nombre": "perro"
+  },
+  {
+    "id_mascota": 2,
+    "tipo": "gato",
+    "edad": 4,
+    "genero": "macho",
+    "raza": "mestizo",
+    "estado": "disponible",
+    "imagen": "gato.jpg",
+    "nombre": "gato"
+  },
+  {
+    "id_mascota": 3,
+    "tipo": "gato",
+    "edad": 5,
+    "genero": "macho",
+    "raza": "mestizo",
+    "estado": "disponible",
+    "imagen": "gato1.jpg",
+    "nombre": "gato"
+  },
+  {
+    "id_mascota": 4,
+    "tipo": "gato",
+    "edad": 2,
+    "genero": "hembra",
+    "raza": "mestizo",
+    "estado": "disponible",
+    "imagen": "gato1.jpg",
+    "nombre": "gato"
+  },
+  {
+    "id_mascota": 5,
+    "tipo": "perro",
+    "edad": 6,
+    "genero": "hembra",
+    "raza": "mestizo",
+    "estado": "disponible",
+    "imagen": "perro1.jpg",
+    "nombre": "perro"
+  },
+  {
+    "id_mascota": 6,
+    "tipo": "perro",
+    "edad": 1,
+    "genero": "macho",
+    "raza": "mestizo",
+    "estado": "disponible",
+    "imagen": "perro.jpg",
+    "nombre": "perro"
+  },
+  {
+    "id_mascota": 7,
+    "tipo": "perro",
+    "edad": 7,
+    "genero": "macho",
+    "raza": "mestizo",
+    "estado": "disponible",
+    "imagen": "perro.jpg",
+    "nombre": "perro"
+  },
+  {
+    "id_mascota": 8,
+    "tipo": "gato",
+    "edad": 5,
+    "genero": "hembra",
+    "raza": "mestizo",
+    "estado": "disponible",
+    "imagen": "gato.jpg",
+    "nombre": "gato"
+  },
+  {
+    "id_mascota": 9,
+    "tipo": "perro",
+    "edad": 3,
+    "genero": "hembra",
+    "raza": "mestizo",
+    "estado": "disponible",
+    "imagen": "perro1.jpg",
+    "nombre": "perro"
+  },
+  {
+    "id_mascota": 10,
+    "tipo": "gato",
+    "edad": 3,
+    "genero": "macho",
+    "raza": "mestizo",
+    "estado": "disponible",
+    "imagen": "gato1.jpg",
+    "nombre": "gato"
+  },
+  {
+    "id_mascota": 11,
+    "tipo": "perro",
+    "edad": 3,
+    "genero": "macho",
+    "raza": "mestizo",
+    "estado": "disponible",
+    "imagen": "perro.jpg",
+    "nombre": "perro"
+  },
+  {
+    "id_mascota": 12,
+    "tipo": "gato",
+    "edad": 4,
+    "genero": "macho",
+    "raza": "mestizo",
+    "estado": "disponible",
+    "imagen": "gato.jpg",
+    "nombre": "gato"
+  },
+  {
+    "id_mascota": 13,
+    "tipo": "gato",
+    "edad": 5,
+    "genero": "hembra",
+    "raza": "mestizo",
+    "estado": "disponible",
+    "imagen": "gato1.jpg",
+    "nombre": "gato"
+  },
+  {
+    "id_mascota": 14,
+    "tipo": "perro",
+    "edad": 2,
+    "genero": "hembra",
+    "raza": "mestizo",
+    "estado": "disponible",
+    "imagen": "perro1.jpg",
+    "nombre": "perro"
+  },
+  {
+    "id_mascota": 15,
+    "tipo": "perro",
+    "edad": 7,
+    "genero": "hembra",
+    "raza": "mestizo",
+    "estado": "disponible",
+    "imagen": "perro.jpg",
+    "nombre": "perro"
+  }
+]

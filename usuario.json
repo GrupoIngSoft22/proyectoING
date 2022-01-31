@@ -1,0 +1,47 @@
+[
+  {
+    "id_usuario": 1,
+    "cedula": 1234567890,
+    "nombres": "Pepe",
+    "apellidos": "Pérez",
+    "correo": "pepe@correo.com",
+    "direccion": "Pichincha",
+    "ciudad": "Quito"
+  },
+  {
+    "id_usuario": 2,
+    "cedula": 1123455498,
+    "nombres": "Luis",
+    "apellidos": "Suárez",
+    "correo": "luis@correo.com",
+    "direccion": "Tungurahua",
+    "ciudad": "Ambato"
+  },
+  {
+    "id_usuario": 3,
+    "cedula": 2109785721,
+    "nombres": "Thomas",
+    "apellidos": "Gómez",
+    "correo": "thomas@correo.com",
+    "direccion": "Loja",
+    "ciudad": "Loja"
+  },
+  {
+    "id_usuario": 4,
+    "cedula": 3462917960,
+    "nombres": "Alejandro",
+    "apellidos": "Álvarez",
+    "correo": "alejandro@correo.com",
+    "direccion": "Guayas",
+    "ciudad": "Guayaquil"
+  },
+  {
+    "id_usuario": 5,
+    "cedula": 1213151618,
+    "nombres": "Gabriela",
+    "apellidos": "Garrido",
+    "correo": "gabriela@correo.com",
+    "direccion": "Pichincha",
+    "ciudad": "Quito"
+  }
+]
